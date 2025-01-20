@@ -1,3 +1,7 @@
+# NOTE: As of 1/20/2025, a bug prevents the use of inbuilt tasks with the ~ syntax for building your image into an image definition. 
+# A bugfix is rolling out, and this issue will be resolved by 1/27/2024. 
+# In the mean time, you can still use these image definitions with inbuilt tasks on a pool directly without building an image.
+
 $schema: "1.0"
 name: "backend-eng"
 image: microsoftwindowsdesktop_windows-ent-cpc_win11-24H2-ent-cpc
